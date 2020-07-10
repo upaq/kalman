@@ -6,7 +6,7 @@ import pylds.models
 from pybasicbayes.util.stats import sample_mniw
 from typing import Tuple
 
-from .dynamic_bias import AbstractDynamicBias
+from covid_models import AbstractDynamicBias
 
 
 def VanillaLDS(D_obs, D_latent, D_input=0,

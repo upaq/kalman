@@ -1,4 +1,10 @@
 numpy
 pandas
-pybasicbayes
-pylds
+-e git+https://github.com/slinderman/pypolyagamma.git#egg=pypolyagamma
+-e git+https://github.com/mattjj/pybasicbayes.git#egg=pybasicbayes
+-e git+https://github.com/mattjj/pylds.git#egg=pylds
+-e git+https://github.com/upaq/covid19-models.git#egg=covid19-models
+
+# Comment. The packages below have to be at head.
+# pybasicbayes
+# pylds
